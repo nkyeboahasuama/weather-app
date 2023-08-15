@@ -3,7 +3,7 @@ import Home from "./ui/Home";
 
 function App() {
   return (
-    <div className="App my-3">
+    <div className="App">
       <Home />
     </div>
   );

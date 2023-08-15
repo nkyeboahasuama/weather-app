@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* background: url("/src/assets/images/rainy1.jpg") no-repeat center center/cover; */
+  height: 100vh;
+  /* overflow: auto; */
 }
 
 .App-logo {
