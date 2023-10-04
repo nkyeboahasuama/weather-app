@@ -1,12 +1,10 @@
 import "./App.css";
-import Home from "./ui/Home";
-import StopWatch from "./ui/StopWatch";
+import MainPage from "./ui/MainPage";
 
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <StopWatch />
+      <MainPage />
     </div>
   );
 }

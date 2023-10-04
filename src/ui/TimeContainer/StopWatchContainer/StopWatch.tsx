@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const StopWatch = () => {
   const [timeNow, setTimeNow] = useState<Date>(new Date());
@@ -8,8 +8,6 @@ const StopWatch = () => {
       const currentTime = new Date();
       setTimeNow(currentTime);
     }, 1000);
-
-    // Cleanup the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
 
@@ -18,7 +16,7 @@ const StopWatch = () => {
   const second = timeNow.getSeconds();
 
   return (
-    <div className="flex justify-center items-center gap-1 p-0 h-full">
+    <div className="bg-stopwatch-img flex justify-center items-center gap-1 p-0 h-screen">
       <div className="w-52 h-52 bg-slate-400 text-white font-bold text-9xl text-center flex items-center justify-center">
         {hour < 10 ? "0" + hour : hour}
       </div>

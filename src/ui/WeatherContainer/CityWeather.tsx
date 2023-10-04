@@ -1,6 +1,6 @@
 import React from "react";
 import { WiDegrees } from "react-icons/wi";
-import { data } from "../assets/api-data/response";
+import { data } from "../../assets/api-data/response";
 
 interface Ilocation {
   city: string;

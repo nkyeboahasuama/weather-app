@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Chips from "./Chips";
 import CityWeather from "./CityWeather";
-import SearchBar from "./SearchBar";
+import SearchBar from "../shared-components/SearchBar";
 import { constants } from "buffer";
-import { data } from "../assets/api-data/response";
+import { data } from "../../assets/api-data/response";
 import Forecast from "./Forecast";
 import FetchWeather from "./FetchWeather";
 
